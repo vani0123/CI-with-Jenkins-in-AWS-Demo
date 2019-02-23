@@ -11,7 +11,7 @@ public class MySeleniumTest {
 	public static String drivePath ="resources/";
 	@Test
 	public static void TestPageContent() {
-		System.setProperty("webdriver.chrome.driver", drivePath + "chromedriver");
+		System.setProperty("webdriver.chrome.driver", drivePath + "chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 
