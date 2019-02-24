@@ -8,10 +8,10 @@ import org.testng.annotations.Test;
 
 public class MySeleniumTest {
 	//public static String drivePath = "C:\\Users\\AK Jain\\Desktop\\vani\\golden gate DevOps\\chromedriver_win32\\";
-	public static String drivePath ="resources/";
+	//public static String drivePath ="resources/";
 	@Test
 	public static void TestPageContent() {
-		//System.setProperty("webdriver.chrome.driver", drivePath + "chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 
 		WebDriver driver = new ChromeDriver();
 
